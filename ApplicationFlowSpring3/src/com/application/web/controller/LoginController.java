@@ -11,7 +11,10 @@ import com.application.web.forms.UserForm;
 
 @Controller
 public class LoginController {	
-	
+	/*
+	 * 
+	 * mapping for login
+	 */
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public ModelAndView get() {
          UserForm userForm= new UserForm();
