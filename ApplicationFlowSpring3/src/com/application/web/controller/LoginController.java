@@ -10,8 +10,7 @@ import com.application.web.forms.UserForm;
 
 
 @Controller
-public class LoginController {
-	
+public class LoginController {	
 	
     @RequestMapping(value = "/login", method = RequestMethod.GET)
     public ModelAndView get() {
