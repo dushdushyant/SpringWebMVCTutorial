@@ -21,7 +21,10 @@ public class LoginController {
         return new ModelAndView("login" , "userForm", userForm);
     }
 
-    
+    /*
+     * 
+     * redirection to home
+     */
     @RequestMapping(value = "/home", method = RequestMethod.POST)
     public ModelAndView save(@ModelAttribute("userForm") UserForm userForm) {
     	
